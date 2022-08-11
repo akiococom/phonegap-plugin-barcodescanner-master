@@ -105,7 +105,7 @@ BarcodeScanner.prototype.scan = function (successCallback, errorCallback, config
             }
 
             if (scanInProgress) {
-				// errorCallback('Scan error.');
+				errorCallback('バーコードリーダを準備中です。OKを押してください。');
 				// errorCallback('Scan is already in progress');
                 //return;
             }
