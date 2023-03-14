@@ -1,9 +1,9 @@
 {
-  "name": "phonegap-plugin-barcodescanner",
+  "name": "sej-plugin-barcodescanner",
   "version": "8.2.0",
   "description": "You can use the BarcodeScanner plugin to scan different types of barcodes (using the device's camera) and get the metadata encoded in them for processing within your application.",
   "cordova": {
-    "id": "phonegap-plugin-barcodescanner",
+    "id": "sej-plugin-barcodescanner",
     "platforms": [
       "ios",
       "android",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vlinde/phonegap-plugin-barcodescanner.git"
+    "url": "git+https://github.com/akiococom/phonegap-plugin-barcodescanner-master"
   },
   "keywords": [
     "ecosystem:cordova",
@@ -45,9 +45,9 @@
   "author": "Adobe PhoneGap Team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vlinde/phonegap-plugin-barcodescanner/issues"
+    "url": "https://github.com/akiococom/phonegap-plugin-barcodescanner-master/issues"
   },
-  "homepage": "https://github.com/vlinde/phonegap-plugin-barcodescanner#readme",
+  "homepage": "https://github.com/akiococom/phonegap-plugin-barcodescanner-master#readme",
   "scripts": {
     "test": "jasmine-node --color spec"
   },
